@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Para Dianita 🩶</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Contenedor principal -->
+  <div class="main-container">
+    <h1 class="title">Para Dianita <span class="white-heart">🩶</span></h1>
+    
+    <div class="flip-container">
+      <div class="flip-card" id="flipCard" tabindex="0" aria-label="Tarjeta polaroid especial, haz click para voltear">
+        <img id="polaroidImage" src="foto/frente.png" alt="Foto polaroid" class="polaroid-image" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Audio para el flip -->
+  <audio id="flipSound" preload="auto">
+    <source src="data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwhBSuBzvLZiTYIG2m98OScTgwOUarm7blmGgU7k9n1unEiBC13yO/eizEIHWq+8+OWT" type="audio/wav">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
